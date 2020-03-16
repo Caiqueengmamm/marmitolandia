@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+#menu_topo{  
+    display: flex;
+    background-color:#F97F51;
+    margin: 0;
+}
+
+#menu_topo li{
+    color: #F8EFBA;
+    text-decoration:none;
+    display: block;
+    padding: 2px;
+}
+
+#menu_topo a{
+    display: block;
+    width: 50%;
+    padding: 20px ;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 15px;
+}
+
+#menu_topo li:first-child{
+    margin-right: auto;
+}
+
+#logo{
+    height:60px;
+}
